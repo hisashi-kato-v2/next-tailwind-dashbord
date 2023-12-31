@@ -5,3 +5,10 @@ export type {
   CardHeaderProps,
   CardTitleProps,
 } from "./card";
+export type {
+  TableBodyProps,
+  TableHeaderProps,
+  TableHeadProps,
+  TableProps,
+  TableRowProps,
+} from "./table";
