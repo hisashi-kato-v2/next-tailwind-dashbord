@@ -1,7 +1,7 @@
 import React, { FC } from "react";
 import { ButtonProps } from "@/types";
 
-const Button: FC<ButtonProps> = ({
+export const Button: FC<ButtonProps> = ({
   children,
   variant = "primary",
   className,
@@ -21,5 +21,3 @@ const Button: FC<ButtonProps> = ({
     </button>
   );
 };
-
-export default Button;

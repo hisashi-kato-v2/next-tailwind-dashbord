@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import Button from "@/components/ui/button";
+import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import { CardTitle, CardHeader, CardContent, Card } from "@/components/ui/card";
 import { ResponsiveBar } from "@nivo/bar";
