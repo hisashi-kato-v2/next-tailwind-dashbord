@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { Button } from "@/components/ui/button";
+import { PrimaryButton } from "@/components/ui/button";
 import Link from "next/link";
 import { CardTitle, CardHeader, CardContent, Card } from "@/components/ui/card";
 import { ResponsiveBar } from "@nivo/bar";
@@ -23,9 +23,9 @@ export default function Component() {
           <FlagIcon className="w-8 h-8" />
           <span className="text-lg font-semibold">Company Name</span>
         </div>
-        <Button className="hidden md:block" variant="outline">
+        <PrimaryButton className="hidden md:block" variant="outline">
           Logout
-        </Button>
+        </PrimaryButton>
       </header>
       <div className="flex flex-1 overflow-hidden">
         <aside className="block md:flex flex-col gap-4 p-4 border-r w-full md:w-64 text-gray-400">

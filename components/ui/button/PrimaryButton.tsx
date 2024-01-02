@@ -1,7 +1,7 @@
 import React, { FC } from "react";
 import { ButtonProps } from "@/types";
 
-export const Button: FC<ButtonProps> = ({
+export const PrimaryButton: FC<ButtonProps> = ({
   children,
   variant = "primary",
   className,
